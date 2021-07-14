@@ -18,7 +18,6 @@ public class Practice2 {
         System.out.println(Math.sqrt(Areaf) + " " + Perimeter);
     }   
 }
-
 /**
  * Triangle
  */

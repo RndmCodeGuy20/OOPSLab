@@ -5,24 +5,20 @@ public class Practice2 {
         
         Triangle sideobj = new Triangle();
 
-        sideobj.a = 3;
-        sideobj.b = 4;
-        sideobj.c = 5;
-
-        double Areaf;
+        double Area;
         double p = (sideobj.a+sideobj.b+sideobj.c)/2;       
-        Areaf = (p*(p-sideobj.a)*(p-sideobj.b)*(p-sideobj.c));
+        Area = (p*(p-sideobj.a)*(p-sideobj.b)*(p-sideobj.c));
         double Perimeter;
         Perimeter = sideobj.a + sideobj.b + sideobj.c;
 
-        System.out.println(Math.sqrt(Areaf) + " " + Perimeter);
+        System.out.println("Area of Triangle : " + Math.sqrt(Area) + "\n" +"Perimeter of Triangle : " + Perimeter);
     }   
 }
 /**
- * Triangle
+ * *class Triangle
  */
 class Triangle {
-    int a;
-    int b;
-    int c; 
+    int a = 3;
+    int b = 4;
+    int c = 5; 
 }

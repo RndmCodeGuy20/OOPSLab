@@ -16,7 +16,7 @@ public class MethOver {
 
 }
 class Adder {
-    public static int Add(int num1, int num2) {
+    public static int Add(float num1, float num2) {
         return (num1 + num2);
     }
 

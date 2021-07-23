@@ -10,10 +10,7 @@ public class MethOver {
         System.out.println(Adder.Add(11, 23.5));
         System.out.println(Adder.Add(23, 48));
     }
-    public static void main(String args) {
-        System.out.println("hello");
-    }
-
+    
 }
 class Adder {
     public static float Add(int num1, int num2) {

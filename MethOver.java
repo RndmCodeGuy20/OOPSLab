@@ -16,11 +16,11 @@ public class MethOver {
 
 }
 class Adder {
-    public static int Add(float num1, float num2) {
+    public static float Add(int num1, int num2) {
         return (num1 + num2);
     }
 
-    public static double Add(int num1, int num2) {
+    public static double Add(double num1, double num2) {
         return (num1 + num2);
     }
 }

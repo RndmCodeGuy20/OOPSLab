@@ -1,0 +1,154 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bike",
+            "request": "launch",
+            "mainClass": "Bike",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoxDemo",
+            "request": "launch",
+            "mainClass": "BoxDemo",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoxDemo2",
+            "request": "launch",
+            "mainClass": "BoxDemo2",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoxDemo3",
+            "request": "launch",
+            "mainClass": "BoxDemo3",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch EmployeeDet",
+            "request": "launch",
+            "mainClass": "EmployeeDet",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch EmployeeInfo",
+            "request": "launch",
+            "mainClass": "EmployeeInfo",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch EmployeeSal",
+            "request": "launch",
+            "mainClass": "EmployeeSal",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch InheritDemo",
+            "request": "launch",
+            "mainClass": "InheritDemo",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch InheritPrac",
+            "request": "launch",
+            "mainClass": "InheritPrac",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Matrix",
+            "request": "launch",
+            "mainClass": "Matrix",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethOver",
+            "request": "launch",
+            "mainClass": "MethOver",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch OponNum",
+            "request": "launch",
+            "mainClass": "OponNum",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Play",
+            "request": "launch",
+            "mainClass": "Play",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice2",
+            "request": "launch",
+            "mainClass": "Practice2",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4",
+            "request": "launch",
+            "mainClass": "Practice4",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch RectArea",
+            "request": "launch",
+            "mainClass": "RectArea",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch SuperDemo",
+            "request": "launch",
+            "mainClass": "SuperDemo",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Zoo",
+            "request": "launch",
+            "mainClass": "Zoo",
+            "projectName": "OOPSLab_777a5cf2"
+        }
+    ]
+}

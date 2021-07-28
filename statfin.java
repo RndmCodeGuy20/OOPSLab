@@ -1,6 +1,6 @@
 public class statfin {
     
-    static final int data;
+    final int data;
 
     statfin(int val){
         data = val;

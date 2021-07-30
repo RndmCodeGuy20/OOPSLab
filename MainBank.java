@@ -1,5 +1,5 @@
 /**
- * @RndmCodeGuy20
+ * @RndmCodeGuy20 (Github)
  * @file MainBank.java
  * @author Shantanu Gajanan Mane
  * @version 2.201

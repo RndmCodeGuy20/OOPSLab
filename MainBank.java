@@ -1,15 +1,29 @@
+/**
+ * @RndmCodeGuy20
+ * @file MainBank.java
+ * @author Shantanu Gajanan Mane
+ * @version 2.201
+ * @date 2021-07-30
+ * @brief 
+ * 
+ * @copyright Copyright (c) 2021 
+ * 
+ */
 import java.util.Scanner;
 
 public class MainBank {
     static int InitialBal;
+    // *Start of Program!
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("What type of account do you want? (Savings / Currents)");
 
+        // * User Input Choice
         String choice = scan.nextLine();
-
+        
+        // * Choice based Version
         if (choice.equals("Savings")) {
 
             Savings accSavings = new Savings();
@@ -42,10 +56,12 @@ public class MainBank {
 
             switch (OperChoice) {
                 case 'A':
+
                     System.out.println("How much amount do you want to deposit?");
                     int inpAmo = scan.nextInt();
                     accSavings.OpenAccSav(Name, Age, Gend, inpAmo);
                     break;
+
                 case 'B':
                     System.out.println("How much amount do you want to deposit?");
                     inpAmo = scan.nextInt();
@@ -64,6 +80,7 @@ public class MainBank {
                     accSavings.DeleteAccSave(delchoice);
 
                 default:
+                System.out.println("WRONG CHOICE!!!");
                     break;
             }
 
@@ -129,7 +146,7 @@ public class MainBank {
     }
 }
 
-//=====//====//=====//
+////=====//====//=====//=====//=====//=====//=====//=====//=======//
 
 class Savings extends MainBank {
     int TotalBalSav;
@@ -187,7 +204,7 @@ class Savings extends MainBank {
     }
 }
 
-// ====//====//=====//
+////=====//====//=====//=====//=====//=====//=====//=====//=======//
 
 class Current extends MainBank {
     int TotalBalCurr;

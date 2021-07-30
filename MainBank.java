@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.jar.Attributes.Name;
 
 public class MainBank {
     static int InitialBal;
@@ -134,7 +133,7 @@ class Savings extends MainBank {
     }
 }
 
-// // ====//====//=====//
+//====//====//=====//
 
 // class Current extends MainBank {
 // int TotalBalCurr;

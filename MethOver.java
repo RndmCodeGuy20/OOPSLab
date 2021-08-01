@@ -2,7 +2,7 @@
  * @author Shantanu Mane
  * @RndmCodeGuy20
  * @date 23 - 07 - 2021
- * @copyright
+ * @copyright  Copyright (c) 2021
  */
 public class MethOver {
     public static void main(String[] args) {

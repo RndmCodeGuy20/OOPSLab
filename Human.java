@@ -3,7 +3,6 @@ public class Human {
     String Gender;
     public static void main(String[] args) {
         
-    
     Man AgeMan = new Man("Shantanu", "Male", 19);
     Woman AgeWoman = new Woman("Vaishali Mane", "Female", 45);
 

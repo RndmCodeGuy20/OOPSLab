@@ -1,3 +1,4 @@
+package InnerFolder;
 public class InheritPrac {
     public static void main(String[] args) {
         Child objChild = new Child();

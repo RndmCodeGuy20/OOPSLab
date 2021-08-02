@@ -15,18 +15,21 @@ public class RBI{
 }
 
 class SBI extends RBI{
+    @Override
     public int getRateOfInterest() {
         return 8;
     }
 }
 
 class ICICI extends RBI {
+    @Override
     public int getRateOfInterest() {
         return 9;
     }
 }
 
 class Axis extends RBI{
+    @Override
     public int getRateOfInterest() {
         return 10;
     }

@@ -13,7 +13,7 @@ public class Posting {
 
         int TotalPro = Calc.Judge(24, 43, 23, 75);
         int TotalTeam = Calc.Judge(45, 80);
-        int TotalMan = Calc.Judge(93);
+        int TotalMan = Calc.Judge(89);
 
         Pro.DispResP(TotalPro);
         tLead.DispRes(TotalTeam);

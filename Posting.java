@@ -20,7 +20,7 @@ public class Posting {
     }
 }
 
-class Programmer{
+class Programmer extends Posting{
     final int TotalMarks = 200;
 
     public int Judge(int CourseWork, int Technical, int Aptitude, int Personal)
@@ -36,7 +36,7 @@ class Programmer{
     }
 }
 
-class TeamLead{
+class TeamLead extends Posting{
     final int TotalMarks = 150;
 
     public int Judge(int Technical, int Personal) {
@@ -51,7 +51,7 @@ class TeamLead{
     }
 }
 
-class ProjMan{
+class ProjMan extends Posting{
     final int TotalMarks = 100;
 
     public int Judge(int Personal) {

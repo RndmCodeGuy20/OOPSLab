@@ -7,26 +7,25 @@ public class Posting {
     
     public static void main(String[] args) {
         Programmer Pro = new Programmer();
-        int TotalPro = Pro.Judge(24, 43, 23, 75);
-        Pro.DispResP(TotalPro);
-
         TeamLead tLead = new TeamLead();
-        int TotalTeam = tLead.Judge(45, 80);
-        tLead.DispRes(TotalTeam);
-
         ProjMan ProMan = new ProjMan();
-        int TotalMan = ProMan.Judge(93);
+        Calculation Calc = new Calculation();
+
+        int TotalPro = Calc.Judge(24, 43, 23, 75);
+        int TotalTeam = Calc.Judge(45, 80);
+        int TotalMan = Calc.Judge(93);
+
+        Pro.DispResP(TotalPro);
+        tLead.DispRes(TotalTeam);
         ProMan.DispRes(TotalMan);
+        
     }
 }
 
 class Programmer extends Posting{
     final int TotalMarks = 200;
 
-    public int Judge(int CourseWork, int Technical, int Aptitude, int Personal)
-    {
-        return (CourseWork + Technical + Aptitude + Personal);
-    }
+    
     public void DispResP(int CandTotal) {
         if (CandTotal >= 80) {
             System.out.println("Congratulations You are eligible for the job as a Programmer!!!" + "\nYour Marks are : " + CandTotal);
@@ -39,9 +38,7 @@ class Programmer extends Posting{
 class TeamLead extends Posting{
     final int TotalMarks = 150;
 
-    public int Judge(int Technical, int Personal) {
-        return (Technical + Personal);
-    }
+    
     public void DispRes(int CandTotal) {
         if (CandTotal >= 85) {
             System.out.println("Congratulations You are eligible for the job as a Team Leader!!!" + "\nYour Marks are : " + CandTotal);
@@ -54,14 +51,26 @@ class TeamLead extends Posting{
 class ProjMan extends Posting{
     final int TotalMarks = 100;
 
-    public int Judge(int Personal) {
-        return Personal;
-    }
+   
     public void DispRes(int CandTotal) {
         if (CandTotal >= 90) {
             System.out.println("Congratulations You are Eligible for the job as a Project Manager!!!" + "\nYour Marks are : " + CandTotal);
         } else {
             System.out.println("Sorry You are not Eligible!!!" + "\nYour Marks are : " + CandTotal);
         }   
+    }
+}
+
+class Calculation extends Posting{
+    public int Judge(int CourseWork, int Technical, int Aptitude, int Personal) {
+        return (CourseWork + Technical + Aptitude + Personal);
+    }
+    
+    public int Judge(int Technical, int Personal) {
+        return (Technical + Personal);
+    }
+    
+    public int Judge(int Personal) {
+        return Personal;
     }
 }

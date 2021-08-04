@@ -24,7 +24,6 @@ public class Posting {
 
 class Programmer extends Posting{
     final int TotalMarks = 200;
-
     
     public void DispResP(int CandTotal) {
         if (CandTotal >= 80) {
@@ -38,7 +37,6 @@ class Programmer extends Posting{
 class TeamLead extends Posting{
     final int TotalMarks = 150;
 
-    
     public void DispRes(int CandTotal) {
         if (CandTotal >= 85) {
             System.out.println("Congratulations You are eligible for the job as a Team Leader!!!" + "\nYour Marks are : " + CandTotal);
@@ -50,7 +48,6 @@ class TeamLead extends Posting{
 
 class ProjMan extends Posting{
     final int TotalMarks = 100;
-
    
     public void DispRes(int CandTotal) {
         if (CandTotal >= 90) {

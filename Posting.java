@@ -23,13 +23,13 @@ public class Posting {
 class Programmer{
     final int TotalMarks = 200;
 
-    public int Judge(int CourseWork, int Technical, int Aptitude, int Personal) {
+    public int Judge(int CourseWork, int Technical, int Aptitude, int Personal)
+    {
         return (CourseWork + Technical + Aptitude + Personal);
     }
     public void DispResP(int CandTotal) {
         if (CandTotal >= 80) {
-            System.out.println("Congratulations You are eligible for the job as a Programmer!!!" + "\nYour Marks are : "
-                    + CandTotal);
+            System.out.println("Congratulations You are eligible for the job as a Programmer!!!" + "\nYour Marks are : " + CandTotal);
         } else {
             System.out.println("Sorry You are not Eligible!!!" + "\nYour Marks are : " + CandTotal);
         }

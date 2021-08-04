@@ -58,7 +58,7 @@ class ProjMan extends Posting{
     }
 }
 
-class Calculation extends Posting{
+class Calculation{
     public int Judge(int CourseWork, int Technical, int Aptitude, int Personal) {
         return (CourseWork + Technical + Aptitude + Personal);
     }

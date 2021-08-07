@@ -6,23 +6,23 @@ public class Posting {
     int PersonalInt;
 
     public static void main(String[] args) {
-        // Programmer Pro = new Programmer();
-        // TeamLead tLead = new TeamLead();
-        // ProjMan ProMan = new ProjMan();
-        // Calculation Calc = new Calculation();
+        Programmer Pro = new Programmer();
+        TeamLead tLead = new TeamLead();
+        ProjMan ProMan = new ProjMan();
+        Calculation Calc = new Calculation();
 
         /**
          * !Add switch case here and submit
          * ? add user input as well
          */
 
-        // int TotalPro = Calc.Judge(24, 43, 23, 75);
-        // int TotalTeam = Calc.Judge(45, 80);
-        // int TotalMan = Calc.Judge(89);
+        int TotalPro = Calc.Judge(24, 43, 23, 75);
+        int TotalTeam = Calc.Judge(45, 80);
+        int TotalMan = Calc.Judge(89);
 
-        // Pro.DispResP(TotalPro);
-        // tLead.DispRes(TotalTeam);
-        // ProMan.DispRes(TotalMan);
+        Pro.DispResP(TotalPro);
+        tLead.DispRes(TotalTeam);
+        ProMan.DispRes(TotalMan);
 
     }
 }

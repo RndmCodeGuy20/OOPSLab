@@ -11,11 +11,6 @@ public class Posting {
         ProjMan ProMan = new ProjMan();
         Calculation Calc = new Calculation();
 
-        /**
-         * !Add switch case here and submit
-         * ? add user input as well
-         */
-
         int TotalPro = Calc.Judge(24, 43, 23, 75);
         int TotalTeam = Calc.Judge(45, 80);
         int TotalMan = Calc.Judge(89);

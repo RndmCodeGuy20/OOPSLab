@@ -20,9 +20,9 @@ public class Box {
     }
 
     public static void main(String[] args) {
-       
+
         Box bdis = new Box();
-       
+
         Box.displayCount();
         float area = Box.Area(5, 4, 3);
         bdis.Display(area, count);

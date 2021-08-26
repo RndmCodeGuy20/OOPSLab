@@ -1,3 +1,19 @@
+/**
+ * @author Shantanu Mane
+ * @version 20.20
+ * @brief Consider a class Employee with data members as employee id and
+ *        employee name. Create an interface taxable which has method
+ *        calculateTax(). Derive a class permanent from class employee and
+ *        interface taxable. Data member for permanent is Salary, include
+ *        function AdditionalEarning which stores information if there is
+ *        additional earning. Calculate tax for the permanent employee. If
+ *        salary for an employee is between 1 lakh to 5 lakh tax is 10%. If
+ *        salary is more than 5 lakh tax is 20%. Add a function to display the
+ *        salary and tax. Derive a class HourlyEmployee from Employee. Data
+ *        members are HoursWorked, RatePerHour. Include methods to calculate
+ *        salary and display it.
+ * @RndmCodeGuy20 
+ */
 public class EmployeeAss6 {
     public static void main(String[] args) {
 
@@ -37,12 +53,12 @@ interface Taxable {
 }
 
 class Permanent extends Employee implements Taxable {
-    double Salary, temp, tax, percent, AE;
+    double Salary, temp, tax, percent, addEarn;
 
     Permanent(long ID, String empName, double Salary) {
         super(ID, empName);
         this.Salary = Salary;
-        AE = 5000;
+        addEarn = 5000;
     }
 
     public double CalculateTax(double Salary) {
@@ -64,7 +80,7 @@ class Permanent extends Employee implements Taxable {
     }
 
     void Additional_Earning() {
-        System.out.println("\nAdditional Earnings :" + AE);
+        System.out.println("\nAdditional Earnings :" + addEarn);
     }
 
     void Display_Sal() {
@@ -73,7 +89,7 @@ class Permanent extends Employee implements Taxable {
         System.out.println("Salary after Tax Deduction : " + CalSal(Salary, tax) + " Rs");
         Additional_Earning();
         System.out.println("\n--------------------------------------------");
-        System.out.println("Total Salary               : " + (temp + AE) + " Rs");
+        System.out.println("Total Salary               : " + (temp + addEarn) + " Rs");
     }
 
     @Override

@@ -120,3 +120,41 @@ class Hourly_Employee extends Employee {
         System.out.println("Total Salary           : " + CalSal(Hours_Worked, Rate) + " Rs");
     }
 }
+
+
+// PS C:\OOPSLab>javac.\EmployeeAss6.java
+// PS C:\OOPSLab>java EmployeeAss6
+
+// ==================================================
+// Employee Information:
+
+// Employee ID:19763
+// empName of Employee:
+// Vaishali Employee Type:
+// Permanent
+
+// Initial Salary:500000.0
+// Rs
+// Tax deducted:0.0
+// Rs Salary
+// after Tax Deduction:500000.0 Rs
+
+// Additional Earnings:5000.0
+
+// --------------------------------------------
+// Total Salary:505000.0 Rs
+
+// ==================================================
+// Employee Information:
+
+// Employee ID:200220
+// empName of Employee:
+// Shantanu Employee Type:
+// Hourly
+
+// Number
+// of Hours Worked:90
+// Rate per Hour:800.0 Rs
+
+// --------------------------------------------
+// Total Salary:72000.0 Rs

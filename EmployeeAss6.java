@@ -20,12 +20,12 @@ class Employee {
     String empName;
 
     Employee(long id, String empName) {
-        this.empID = id;
+        empID = id;
         this.empName = empName;
     }
 
     void Display_Info() {
-        System.out.println("\n==================================");
+        System.out.println("\n==================================================");
         System.out.println("Employee Information:\n");
         System.out.println("Employee ID      : " + empID);
         System.out.println("empName of Employee : " + empName);

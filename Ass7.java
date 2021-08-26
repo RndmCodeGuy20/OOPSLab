@@ -6,6 +6,8 @@
  * 1. No parameter 
  * 2. one parameter 
  * 3. multiple parameter
+ * 
+ * @RndmCodeGuy20
  */
 public class Ass7 {
     public static void main(String[] args) {

@@ -1,3 +1,11 @@
+/**
+ * @author Shantanu Mane
+ * @version 20.20
+ * @brief Demonstrate use of run time polymorphism in the case of multilevel
+ *        inheritance.
+ * @RndmCodeGuy20
+ */
+
 public class RunTimePoly {
     public static void main(String[] args) {
         OS os = new OS("Operating Software");
@@ -54,3 +62,11 @@ class WinMob extends Win {
         System.out.println("Feature of " + Sys);
     }
 }
+
+// * OUTPUT
+// PS C:\OOPSLab> javac .\RunTimePoly.java 
+// PS C:\OOPSLab> java RunTimePoly
+// Feature of Operating Software
+// Feature of DOS
+// Feature of Windows OS
+// Feature of Windows OS for Mobile

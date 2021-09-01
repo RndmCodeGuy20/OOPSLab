@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EmployeeReg",
+            "request": "launch",
+            "mainClass": "EmployeeReg",
+            "projectName": "OOPSLab_777a5cf2"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

@@ -17,7 +17,7 @@ public class ArrayListAssgn {
         ArrayList<Integer> array = new ArrayList<Integer>();
 
         array.add(new Integer(2));
-        array.add(new Integer(5));
+        array.add(new Integer(5));  
         array.add(new Integer(1));
         array.add(new Integer(4));
         array.add(new Integer(3));

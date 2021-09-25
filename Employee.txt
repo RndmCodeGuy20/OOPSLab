@@ -1,0 +1,6 @@
+ID	Name	Type	Perks
+85	Michael	P	0
+86	Dwight	A	1000
+87	Jim	A	1000
+88	Pam	P	0
+89	Ryan	A	1000

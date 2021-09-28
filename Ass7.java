@@ -68,7 +68,7 @@ class Parrot {
     }
 }
 
-//? OUTPUT :
+//      * OUTPUT :
 // PS C:\OOPSLab>javac.\Ass7.java
 // PS C:\OOPSLab> java Ass7
 

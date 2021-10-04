@@ -75,9 +75,9 @@ class Manager extends Posting {
 public class PostingDemo {
     public static void main(String[] args) {
         int com;
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter 1 for programmer 2 for Team Leader 3 For Manager");
-        com = sc.nextInt();
+        com = scan.nextInt();
         if (com == 1) {
             Programmer pro = new Programmer();
             float result;
@@ -99,6 +99,6 @@ public class PostingDemo {
         } else {
             System.out.println("Enter valid command");
         }
-
+        scan.close();
     }
 }
